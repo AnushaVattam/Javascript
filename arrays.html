@@ -1,0 +1,53 @@
+<html>
+
+    <head>
+        <title>Arrays in Javascript</title>
+    </head>
+    <body>
+        
+        <h1> This is arrays </h1>
+      <script type ="text/javascript">
+        
+        var myVariable="Sing a Song";
+          
+        var myArray =["Sing", "a", "Song"];
+        
+        document.write(myArray[0]);
+        
+        document.write(myArray[1]);
+        
+        document.write(myArray[2]);
+          
+          
+        var FavFruits =["apple", "Pineapple","Blood orange","Sapota"];
+          
+        for(var i = 0 ;i < FavFruits.length;i++)
+            {
+                document.write(FavFruits[i]); 
+                document.write("<br>");
+            }
+     
+       // <h2> hello Multidimmensional</h2>
+          
+          var myPlaces =[
+              ["San Marcos", "Texas",78666],["Austin","Texas","78758"],["Waco", "Texas","78909"]
+          ];
+          
+          for(var j =0 ; j< myPlaces.length; j++)
+              {
+                  for(var k =0 ; k<myPlaces.length; k++)
+                      {
+                          document.write(myPlaces[j][k]);
+                           document.write("  ");
+                          
+                      }
+                  document.write("<br>");
+                 
+              }
+        
+      </script>
+    
+    </body>
+
+
+</html>
